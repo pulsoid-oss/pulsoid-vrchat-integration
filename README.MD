@@ -41,7 +41,7 @@ Now you will want to drag and drop this into your project to add it into the wor
 
 Inside of the prefabs folder you will find the following prefabs:
 
-- H.R.T (Heart Rate Calculator)
+- [H.R.T (Heart Rate Calculator)](#hrib)
 - H.R-I.B (Heart Rate - Indication Board)
 - H.R-A.L (Heart Rate - Ambient Light )
 - H-H.R.B Offset Holder (Head – Heart Rate Board)
@@ -52,7 +52,7 @@ We will now go into detail about what each prefab is and how each one works.
 
 All prefabs are set up automatically and can just be dragged into the scene without any need to edit them or set them up.
 
-#### <a name="hrib"></a>H.R-I.B ( HEART RATE -  INDICATION BOARD) 
+#### <a id="hrib"></a> H.R-I.B ( HEART RATE -  INDICATION BOARD) 
 H.R-I.B is ran by the instance owner only, all of the networking and code is sent through them.
 
 When a player(s) join the instance the owner will look through an array of 64 slots and will allocate a slot to that player giving them ownership and turning the slot on for everyone so that everyone can see it.
