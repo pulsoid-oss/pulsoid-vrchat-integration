@@ -41,12 +41,12 @@ Now you will want to drag and drop this into your project to add it into the wor
 
 Inside of the prefabs folder you will find the following prefabs:
 
-- [H.R.T (Heart Rate Calculator)](#hrib)
-- H.R-I.B (Heart Rate - Indication Board)
-- H.R-A.L (Heart Rate - Ambient Light )
-- H-H.R.B Offset Holder (Head – Heart Rate Board)
-- H-H.R.B Spawner (Head – Heart Rate Board Spawner)
-- W-H.R.B (local only) (Wrist – Heart Rate Board) 
+- H.R.T (Heart Rate Calculator)
+- [H.R-I.B (Heart Rate - Indication Board)](#hrib)
+- [H.R-A.L (Heart Rate - Ambient Light )](#hral)
+- [H-H.R.B Offset Holder (Head – Heart Rate Board)](hhrb-offset)
+- [H-H.R.B Spawner (Head – Heart Rate Board Spawner)](hhrb-spawner)
+- [W-H.R.B (local only) (Wrist – Heart Rate Board)](whrb)
 
 We will now go into detail about what each prefab is and how each one works.
 
@@ -57,20 +57,20 @@ H.R-I.B is ran by the instance owner only, all of the networking and code is sen
 
 When a player(s) join the instance the owner will look through an array of 64 slots and will allocate a slot to that player giving them ownership and turning the slot on for everyone so that everyone can see it.
 
-#### H.R-A.L ( HEART RATE -  AMBIENT LIGHT) 
+#### <a id="hral"></a>H.R-A.L ( HEART RATE -  AMBIENT LIGHT) 
 H.R-A.L collects everyones heart rate by calling into the SDS script run on the H.R-I.B prefab, it calls to get the slot update script on the first slot and get the heart rate from it by doing SDS.Slots[i].
 
 HR Slots, this holds the script inside of every slot and inside of that script that players Heart rate is stored. Once the script has gotten this it adds the number to a int and does it for every other Heart Rate that is over 0 then it divides the total by the amount of slots we pulled a Heart rate from And set a the color of all the lights inside of it as one of 4 colors depending on how high the average heart rate is, this updates every 5 seconds
 
-#### H-H.R.B Offset Holder (HEAD - HEART RATE BOARD) 
+#### <a id="hhrb-offset"></a> H-H.R.B Offset Holder (HEAD - HEART RATE BOARD) 
 H-H.R.B Offset Holder is very simple and has no code inside of it apart from the code inside of the child object that will move the H-H.R.B above the owning players head while showing their heart rate above their head by calling directly to the H.R.T ( heart rate calculator) script to get the owning players heart rate, the player then syncs this variable with everyone in the instance and then proceeds to show it on the UI now above their head. 
 
-#### H-H.R.B Spawner (HEAD -  HEART RATE BOARD) 
+#### <a id="hhrb-spawner"></a>H-H.R.B Spawner (HEAD -  HEART RATE BOARD) 
 H-H.R.B Spawner works in the exact same same way that the H.R-I.B works, it's the same code just with some variables changed and what object it gives away changed. Everything else is the same. 
 
 When a player loads in the owning player checks an array of 64 objects finds one that is not in use and gives it to that player then giving that player ownership of that object. 
 
-#### W-H.R.B(local only)(WRIST -  HEART RATE BOARD) 
+#### <a id="whrb"></a>W-H.R.B(local only)(WRIST -  HEART RATE BOARD) 
 W-H.R.B works basically the same as the H-H.R.B however it is local only and instead of being over the player head it is attached to their wrist. Again it is the same code with some variables changed and without the networking, as it is local only you’ll only ever need one in the instance. 
 
 # Credits
