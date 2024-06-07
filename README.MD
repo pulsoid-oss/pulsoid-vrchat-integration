@@ -50,7 +50,7 @@ Inside of the prefabs folder you will find the following prefabs:
 
 We will now go into detail about what each prefab is and how each one works.
 
-All prefabs are set up automatically and can just be dragged into the scene without any need to edit them or set them up.
+**All prefabs are set up automatically and can just be dragged into the scene without any need to edit them or set them up.**
 
 #### <a id="hrib"></a> H.R-I.B ( HEART RATE -  INDICATION BOARD) 
 H.R-I.B is ran by the instance owner only, all of the networking and code is sent through them.
