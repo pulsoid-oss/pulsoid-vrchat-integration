@@ -44,9 +44,9 @@ Inside of the prefabs folder you will find the following prefabs:
 - H.R.T (Heart Rate Calculator)
 - [H.R-I.B (Heart Rate - Indication Board)](#hrib)
 - [H.R-A.L (Heart Rate - Ambient Light )](#hral)
-- [H-H.R.B Offset Holder (Head – Heart Rate Board)](hhrb-offset)
-- [H-H.R.B Spawner (Head – Heart Rate Board Spawner)](hhrb-spawner)
-- [W-H.R.B (local only) (Wrist – Heart Rate Board)](whrb)
+- [H-H.R.B Offset Holder (Head – Heart Rate Board)](#hhrb-offset)
+- [H-H.R.B Spawner (Head – Heart Rate Board Spawner)](#hhrb-spawner)
+- [W-H.R.B (local only) (Wrist – Heart Rate Board)](#whrb)
 
 We will now go into detail about what each prefab is and how each one works.
 
