@@ -2,6 +2,17 @@
 
 In this documentation we use P.V.W.I as an abbreviation for Pulsoid VRChat World Integration
 
+## Pulsoid Demo Tech World
+
+You expierence our integration in specially created Pulsoid Demo Tech World!
+
+1. Visit [https://pulsoid.net/ui/midi](https://pulsoid.net/ui/midi) to setup the integration
+In the end you should be in a similar state:
+![setup](./images/setup.png)
+
+2. Join Pulsoid Tech Demo World 
+![world](./images/world.png)
+
 ### What Is P.V.W.I and what can it be used for? 
 P.V.W.I was made for the purpose of integrating the players heart rate data into the World side of VRChat allowing world creators to implement code and game features based around the players heart rate.
 
