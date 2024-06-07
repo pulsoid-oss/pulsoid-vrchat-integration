@@ -6,7 +6,7 @@ In this documentation we use P.V.W.I as an abbreviation for Pulsoid VRChat World
 
 You expierence our integration in specially created Pulsoid Demo Tech World!
 
-1. Visit [https://pulsoid.net/ui/midi](https://pulsoid.net/ui/midi) to setup the integration
+1. Visit [https://pulsoid.net/ui/midi](https://pulsoid.net/ui/midi) to setup the integration.
 In the end you should be in a similar state:
 ![setup](./images/setup.png)
 
