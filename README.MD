@@ -10,7 +10,7 @@ You can expierence our integration in specially created Pulsoid Demo Tech World!
 In the end you should be in a similar state:
 ![setup](./images/setup.png)
 
-2. Join Pulsoid Tech Demo World 
+2. Join Pulsoid Tech Demo World in VRChat
 ![world](./images/world.png)
 
 For any additional information contact us:
