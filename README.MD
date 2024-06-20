@@ -16,6 +16,7 @@ In the end you should be in a similar state:
 For any additional information contact us:
 - contact@pulsoid.net
 - #vrchat at [discord](https://pulsoid.net/s/discord)
+- technical details [Pulsoid MIDI Protocol](https://docs.pulsoid.net/vr-chat/pulsoid-midi-protocol)
 
 ### What Is P.V.W.I and what can it be used for? 
 P.V.W.I was made for the purpose of integrating the players heart rate data into the World side of VRChat allowing world creators to implement code and game features based around the players heart rate.
