@@ -11,7 +11,7 @@ The Demo World showcases the following features:
 - Changing the floor color based on the combined heart rate
 - Showing individual heart rate on the wrist
 
-(Pulsoid MIDI Protocol)[https://docs.pulsoid.net/vr-chat/vrchat-world-integration#pulsoid-midi-protocol]
+[Pulsoid MIDI Protocol](https://docs.pulsoid.net/vr-chat/vrchat-world-integration#pulsoid-midi-protocol)
 
 In this documentation we use P.V.W.I as an abbreviation for Pulsoid VRChat World Integration
 
