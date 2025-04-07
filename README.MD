@@ -5,6 +5,13 @@ At a high level, Pulsoid exposes heart rate data via the Pulsoid MIDI Protocol. 
 
 [![](https://markdown-videos-api.jorgenkh.no/youtube/LH_wfSFVFyo)](https://youtu.be/LH_wfSFVFyo)
 
+We’ve provided prefabs for Unity, but you’re free to integrate them in your own way. 
+The Demo World showcases the following features:
+- Displaying all heart rates on a board
+- Changing the floor color based on the combined heart rate
+- Showing individual heart rate on the wrist
+
+
 In this documentation we use P.V.W.I as an abbreviation for Pulsoid VRChat World Integration
 
 ## Pulsoid Demo Tech World
