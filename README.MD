@@ -1,4 +1,7 @@
 # Pulsoid VRchat World Integration
+##High Level Approach
+
+At a high level, Pulsoid exposes heart rate data via the Pulsoid MIDI Protocol. A VRChat world can listen to the beats per minute transmitted through [MIDI](https://creators.vrchat.com/worlds/udon/midi/). As a result, the VRChat world can receive and react to this data.
 
 In this documentation we use P.V.W.I as an abbreviation for Pulsoid VRChat World Integration
 
