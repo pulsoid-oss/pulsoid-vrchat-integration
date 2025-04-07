@@ -13,6 +13,10 @@ The Demo World showcases the following features:
 
 [Pulsoid MIDI Protocol](https://docs.pulsoid.net/vr-chat/vrchat-world-integration#pulsoid-midi-protocol)
 
+## How to Stream Heart Rate as MIDI Data
+We've developed a dedicated page to help you set up and stream heart rate data as MIDI.
+Visit https://pulsoid.net/ui/midi to configure your settings and start streaming.
+
 In this documentation we use P.V.W.I as an abbreviation for Pulsoid VRChat World Integration
 
 ## Pulsoid Demo Tech World
